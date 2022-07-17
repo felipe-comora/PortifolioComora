@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+menu {
+    position: fixed;
+    background-color: rgb(46, 37, 36);
+    width: 16%;
+    height: 100%;
+    
+}
+
+.estrutura1 {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    left: 30px;
+    top: 40px;
+}
+
+.logoImg {
+    width: 250px;
+    height: 217px;
+}
+
+.name {
+    font-family: Kanit, Roboto, Helvetica, sans-serif;
+    color: #fffafa;
+    padding-top: 20px;
+}
+
+
+.fun {
+    font-family: Montserrat, Roboto, Helvetica, sans-serif;
+    background: linear-gradient(to right, #ff914d 40%, #fffafa 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.0rem
+}
+
+.fun2 {
+    font-family: Montserrat, Roboto, Helvetica, sans-serif;
+    background: linear-gradient(to right, #fffafa 38%, #ff914d 4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fffafa;
+    transition: all linear;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff914d;
+    cursor: pointer;
+}
+
+.nav {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding-top: 50px;
+    left: 35px;
+    font-family: Kanit, Roboto, Helvetica, sans-serif;
+    color: #fffafa;
+    font-size: 40px;
+    top: 110px;
+}
+.borda{
+    position: relative;
+    left: 75px;
+    border-bottom: 8px solid #fffafa;
+    border-bottom-style: dashed;
+    width: 70px;
+}
+
+.social {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 80px;
+    top: 295px;
+    left: 24px;
+}
+body {
+    background-image: url(/PortifolioComora/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+}
+.conteudo{
+    position: relative;
+    align-items: center;
+    left: 381px;
+    top: 128px;
+}
+.conteudo .title{
+    font-size: 100px;
+    font-family: Kanit, Roboto, Helvetica, sans-serif ;
+    color: #ff914d;
+}
+.descricao{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: Montserrat, Roboto, Helvetica, sans-serif ;
+    color: #fffafa;
+}
