@@ -7,9 +7,6 @@
     padding: 0;
 
 }
-
-
-
 menu {
     position: fixed;
     background-color: rgb(46, 37, 36);
@@ -83,7 +80,12 @@ a:hover {
     color: #fffafa;
     font-size: 40px;
     top: 110px;
+    transition: 0.3s;
 }
+.nav:active{
+    color: #ff914d;
+}
+
 .borda{
     position: relative;
     left: 75px;
@@ -106,14 +108,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vh;
+    overflow: hidden;
 }
-.conteudo{
+
+.tabcontent{
     position: relative;
     align-items: center;
     left: 381px;
     top: 128px;
+    animation: fadeEffect 1s;
+
 }
-.conteudo .title{
+.tabcontent .title{
     font-size: 100px;
     font-family: Kanit, Roboto, Helvetica, sans-serif ;
     color: #ff914d;
@@ -121,7 +127,92 @@ body {
 .descricao{
     margin-left: 80px;
     margin-top: 20px;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Montserrat, Roboto, Helvetica, sans-serif ;
     color: #fffafa;
 }
+.TituloFun{
+    font-family: Montserrat, Roboto, Helvetica, sans-serif;
+    color: #fffafa;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.barras{
+    color: #ff914d;
+    background-color: #ff914d;
+    border-radius: 10px;
+    margin-left: 80px;
+    overflow: hidden;
+    margin-top: -18px;
+}
+.barraPreta{
+    color: #ff914d;
+    background-color: rgb(46, 37, 36);
+    border-radius: 10px;
+    margin-left: 80px;
+    width: 500px;
+    
+}
+.experiencia{
+    background-image: url(img/4.png);
+    width: 300px;
+    height: 200px;
+    position: inherit;
+    margin-left: 800px;
+}
+.jobDescricao{
+    font-family: Montserrat, Roboto, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #fffafa;
+}
+.experiencia1{
+    margin-top: -260px;
+    align-items: center;
+}
+.experiencia2{
+    margin-top: 50px;
+    align-items: center;
+}
+.alinhamento{
+    width: 100px;
+    padding: 1px;
+}
+.alinhamentoSocial{
+    display: inline;
+    margin-left: 300px;
+}
+.nameRede{
+    font-family: Kanit, Roboto, Helvetica, sans-serif;
+    color: #fffafa;
+    padding-top: 20px;
+}
+
+.bar1{width: 1%; animation: barra1 3s ease-in-out  1 both;}
+.bar2{width: 1%; animation: barra2 3s ease-in-out  1 both;}
+.bar3{width: 1%; animation: barra3 3s ease-in-out  1 both;}
+.bar4{width: 1%; animation: barra4 3s ease-in-out  1 both;}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+@keyframes barra1 {
+    0% {width: 1%;}
+    100% {width: 45%;}
+  }
+  @keyframes barra2 {
+    0% {width: 1%;}
+    100% {width: 30%;}
+  }
+  @keyframes barra3 {
+    0% {width: 1%;}
+    100% {width: 40%;}
+  }
+  @keyframes barra4 {
+    0% {width: 1%;}
+    100% {width: 25%;}
+  }

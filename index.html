@@ -20,16 +20,16 @@
         </div>
         <ul>
             <div class="nav">
-                <li class="about"><a href="#about">ABOUT ME</a></li>
+                <li class="about" onclick="openCity(event, 'about')"  id="defaultOpen"><a>ABOUT ME</a></li>
                 <div class="borda"></div>
-                <li class="skill"><a href="#skill">MY SKILLS</a></li>
+                <li class="skill" onclick="openCity(event, 'skill')"><a>MY SKILLS</a></li>
                 <div class="borda"></div>
-                <li class="contact"><a>CONTACT ME</a></li>
+                <li class="contact" onclick="openCity(event, 'contact')"><a>CONTACT ME</a></li>
             </div>
 
         </ul>
         <div class="rede-social">
-            <a href="www.linkedin.com/in/felipe-comora" target="_blank"><img class="social link" src="/PortifolioComora/img/sociais/linke.png"></a>
+            <a href="https://www.linkedin.com/in/felipe-comora/" target="_blank"><img class="social link" src="/PortifolioComora/img/sociais/linke.png"></a>
             <a href="https://github.com/felipe-comora" target="_blank"><img class="social git" src="/PortifolioComora/img/sociais/git.png"></a>
             <a href="https://www.tiktok.com/@comoratech" target="_blank"><img class="social tik" src="/PortifolioComora/img/sociais/tik.png"></a>
         </div>
@@ -37,25 +37,78 @@
 </header>
 
 <body>
-    <div class="conteudo" name="about">
+    <div  id="about" class="tabcontent">
         <p class="title">
             <strong>ABOUT ME !</strong>
         </p>
         <p class="descricao">
-            Hi there! My name is Felipe Comora, i'm a software engineer fascinated by all means of technology. 
+            Hi there! My name is Felipe Comora located in Brazil, i'm a software engineer fascinated by all means of technology. 
             I'm always looking for new opportunities to challenge myself.
         </p>
     </div>
-    <div class="conteudo" name="skill">
+    <div id="skill" class="tabcontent" >
         <p class="title">
-            <strong>My skills</strong>
+            <strong>MY SKILLS</strong>
         </p>
         <p class="descricao">
+            My journey started from an early age working as a teacher of basic computing, and that's how I fell in love with the technology area,
+            Soon I entered my first experience as a google deployment in large, small and medium companies.
+            Then I entered the programming area and there I today.</p>
+        <p class="descricao">
             I currently work with Angular JS, SpringBoot (Java) and AWS.
-
         </p>
+        <div class="escala">
+            <div class="TituloFun backEnd">
+                Back-End
+            </div>
+            <div class="barraPreta"><span class="skillsHab"></span>""</div>
+            <div class="barras bar1"><span class="skillsHab"></span>" "</div>
+            <div class="TituloFun frontEnd">
+                Front-End
+            </div>
+            <div class="barraPreta"><span class="skillsHab"></span>" "</div>
+            <div class="barras bar2"><span class="skillsHab"></span>1</div>
+            
+
+            <div class="TituloFun Java">
+                Java
+            </div>
+            <div class="barraPreta"><span class="skillsHab"></span>" "</div>
+            <div class="barras bar3"><span class="skillsHab"></span>1</div>
+            
+            <div class="TituloFun Angular">
+                Angular
+            </div>
+            <div class="barraPreta"><span class="skillsHab"></span>" "</div>
+            <div class="barras bar4"><span class="skillsHab"></span>1</div>
+        </div>
+        <!--<section class="experiencias">
+            <div class="experiencia experiencia1">
+                <p class="Jobdescricao fun">FullStack Developer</p>
+                <p class="Jobdescricao Empresa">RedeCard</p>
+                <p class="Jobdescricao Ano">2021-Present</p>
+                <p class="Jobdescricao DescEmp">Rede faz parte do Itaú Unibanco e é uma empresa adquirente, sendo uma das responsáveis pela captura, transmissão e liquidação financeira de transações com cartões de crédito</p>
+
+
+            </div>
+       
+        </section>-->
     </div>
-    
+    <div id="contact" class="tabcontent" >
+        <p class="title">
+            <strong>CONTACT ME</strong>
+        </p>
+        <p class="descricao">
+            Did you like what you saw and read? Let's do some work together will be a pleasure!
+            To contact me, simply access one of the options below.
+        </p>
+        <div class="alinhamentoSocial">
+            <a href="https://www.linkedin.com/in/felipe-comora" target="_blank"><img class="alinhamento link" src="/PortifolioComora/img/sociais/linke.png"></a>
+            <a href="https://github.com/felipe-comora" target="_blank"><img class="alinhamento git" src="/PortifolioComora/img/sociais/git.png"></a>
+            <a href="https://www.tiktok.com/@comoratech" target="_blank"><img class="alinhamento tik" src="/PortifolioComora/img/sociais/tik.png"></a>
+        </div>
+           
+    </div>  
 </body>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<script src="/PortifolioComora/script/changeTab.js" async defer type="text/javascript"></script>
 </html>
