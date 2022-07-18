@@ -80,7 +80,7 @@ a:hover {
     font-family: Kanit, Roboto, Helvetica, sans-serif;
     color: #fffafa;
     font-size: 40px;
-    top: 110px;
+    top: 50px;
     transition: 0.3s;
 }
 .nav:active{
