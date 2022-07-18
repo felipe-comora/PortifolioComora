@@ -8,9 +8,9 @@
 
 }
 menu {
-    position: fixed;
+    position: absolute;
     background-color: rgb(46, 37, 36);
-    width: 16%;
+    width: 20%;
     height: 100%;
     
 }
@@ -21,19 +21,20 @@ menu {
     justify-content: center;
     align-items: center;
     display: inline-block;
-    left: 30px;
-    top: 40px;
+    top: 7px;
+    width: 100%;
 }
 
 .logoImg {
-    width: 250px;
-    height: 217px;
+    width: 70%;
+    height: 25%;
 }
 
 .name {
     font-family: Kanit, Roboto, Helvetica, sans-serif;
     color: #fffafa;
     padding-top: 20px;
+    font-size: 185%;
 }
 
 
@@ -42,7 +43,7 @@ menu {
     background: linear-gradient(to right, #ff914d 40%, #fffafa 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.0rem
+    font-size: 210%
 }
 
 .fun2 {
@@ -50,7 +51,7 @@ menu {
     background: linear-gradient(to right, #fffafa 38%, #ff914d 4%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.7rem;
+    font-size: 160%;
 }
 
 li {
@@ -75,7 +76,7 @@ a:hover {
     align-items: center;
     display: inline-block;
     padding-top: 50px;
-    left: 35px;
+    left: 75px;
     font-family: Kanit, Roboto, Helvetica, sans-serif;
     color: #fffafa;
     font-size: 40px;
@@ -99,9 +100,9 @@ a:hover {
     align-items: center;
     position: relative;
     overflow: hidden;
-    width: 80px;
-    top: 295px;
-    left: 24px;
+    width: 30%;
+    top: 200px;
+    left: 10px;
 }
 body {
     background-image: url(img/fundo.jpg);
@@ -112,11 +113,12 @@ body {
 }
 
 .tabcontent{
-    position: relative;
-    align-items: center;
-    left: 381px;
+    position: absolute;
+    align-items: center;    
+    left: 500px;
     top: 128px;
     animation: fadeEffect 1s;
+    width: 50%;
 
 }
 .tabcontent .title{
