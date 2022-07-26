@@ -10,10 +10,11 @@
 menu {
     position: absolute;
     background-color: rgb(46, 37, 36);
-    width: 20%;
-    height: 100%;
-    
+    text-align: center;
+    width: 30vh;
+    height: 100vh;
 }
+
 
 .estrutura1 {
     position: relative;
@@ -26,7 +27,7 @@ menu {
 }
 
 .logoImg {
-    width: 70%;
+    width: 100%;
     height: 25%;
 }
 
@@ -76,11 +77,9 @@ a:hover {
     align-items: center;
     display: inline-block;
     padding-top: 50px;
-    left: 75px;
     font-family: Kanit, Roboto, Helvetica, sans-serif;
     color: #fffafa;
     font-size: 40px;
-    top: 50px;
     transition: 0.3s;
 }
 .nav:active{
@@ -115,8 +114,8 @@ body {
 .tabcontent{
     position: absolute;
     align-items: center;    
-    left: 500px;
-    top: 128px;
+    left: 25%;
+    top: 20%;
     animation: fadeEffect 1s;
     width: 50%;
 
@@ -129,7 +128,7 @@ body {
 .descricao{
     margin-left: 80px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 26px;
     font-family: Montserrat, Roboto, Helvetica, sans-serif ;
     color: #fffafa;
 }
